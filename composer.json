@@ -1,0 +1,25 @@
+{
+    "name": "puzzlout/exceptions",
+    "description": "The Puzzlout package to store exceptions and their codes",
+    "license": "MIT",
+    "keywords": ["Puzzlout", "web", "dev", "jl", "exceptions", "error", "codes"],
+    "authors": [
+        {
+            "name": "Jeremie Litzler",
+            "email": "contact@jeremielitzler.net"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "puzzlout/framework-mvc": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Puzzlout\\Exceptions\\": "src"
+        }
+    }
+}
