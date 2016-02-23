@@ -14,5 +14,5 @@
 namespace Puzzlout\Exceptions\Codes;
 
 abstract class ResourceErrors {
-
+    
 }

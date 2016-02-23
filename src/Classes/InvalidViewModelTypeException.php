@@ -15,7 +15,8 @@ namespace Puzzlout\Exceptions\Classes;
 
 class InvalidViewModelTypeException extends Core\InvalidArgumentException {
 
-  public function __construct($message = "Resource not found", $code = 0, $previous = null) {
-    parent::__construct($message, $code, $previous); //todo: generate error code.
-  }
+    public function __construct($message = "Resource not found", $code = 0, $previous = null) {
+        parent::__construct($message, $code, $previous); //todo: generate error code.
+    }
+
 }

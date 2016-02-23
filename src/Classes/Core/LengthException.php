@@ -15,7 +15,8 @@ namespace Puzzlout\Exceptions\Classes\Core;
 
 class LengthException extends \LengthException {
 
-  public function __construct($message = "Resource not found", $code = 0, $previous = null) {
-    parent::__construct($message, $code, $previous); //todo: generate error code.
-  }
+    public function __construct($message = "Resource not found", $code = 0, $previous = null) {
+        parent::__construct($message, $code, $previous); //todo: generate error code.
+    }
+
 }

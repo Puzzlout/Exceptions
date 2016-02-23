@@ -14,6 +14,7 @@
 namespace Puzzlout\Exceptions\Codes;
 
 abstract class MvcErrors {
+
     const ActionNotFoundForController = 0;
 
 }

@@ -15,7 +15,8 @@ namespace Puzzlout\Exceptions\Classes\Core;
 
 class OutOfRangeException extends \OutOfRangeException {
 
-  public function __construct($message = "", $code = 0, $previous = null) {
-    parent::__construct($message, $code, $previous); //todo: generate error code.
-  }
+    public function __construct($message = "", $code = 0, $previous = null) {
+        parent::__construct($message, $code, $previous); //todo: generate error code.
+    }
+
 }
