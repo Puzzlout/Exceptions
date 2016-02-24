@@ -15,4 +15,5 @@ namespace Puzzlout\Exceptions\Codes;
 
 abstract class GeneralErrors {
     const DEFAULT_ERROR = 1;
+    const VALUE_IS_NOT_OF_EXPECTED_TYPE = 2;
 }
