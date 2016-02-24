@@ -1,21 +1,18 @@
 <?php
 
 /**
- * ResourceErrors range from 4000 to 4999
+ * GeneralErrors range from 1 to 999. 
  * 
  * @author Jeremie Litzler
  * @copyright Copyright (c) 2015
  * @licence http://opensource.org/licenses/gpl-license.php GNU Public License
  * @link https://github.com/puzzlout/Exceptions
  * @since Version 1.0.0
- * @package ResourceErrors
+ * @package GeneralErrors
  */
 
 namespace Puzzlout\Exceptions\Codes;
 
-abstract class ResourceErrors {
-    /**
-     * Used when an error code for a particular case is not yet created when dealing with resources.
-     */
-    const UNASSIGNED_ERROR = 4000;
+abstract class GeneralErrors {
+    const DEFAULT_ERROR = 1;
 }

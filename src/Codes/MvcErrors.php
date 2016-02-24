@@ -1,7 +1,7 @@
 <?php
 
 /**
- * MvcErrors
+ * MvcErrors range from 3000 to 3999
  * 
  * @author Jeremie Litzler
  * @copyright Copyright (c) 2015
@@ -14,7 +14,10 @@
 namespace Puzzlout\Exceptions\Codes;
 
 abstract class MvcErrors {
-
-    const ActionNotFoundForController = 0;
+    /**
+     * Used when an error code for a particular case is not yet created when dealing with the MVC pattern.
+     */
+    const UNASSIGNED_ERROR = 3000;
+    const ACTION_NOT_FOUND_FOR_CONTROLLER = 3001;
 
 }
