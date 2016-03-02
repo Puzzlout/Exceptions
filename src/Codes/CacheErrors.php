@@ -14,8 +14,20 @@
 namespace Puzzlout\Exceptions\Codes;
 
 abstract class CacheErrors {
+
     /**
      * Used when an error code for a particular case is not yet created when dealing with caching data.
      */
     const UNASSIGNED_ERROR = 2000;
+
+    /**
+     * Used when a certain key is being set when it exists in the cache store
+     */
+    const KEY_FOUND_ON_CREATE = 2001;
+
+    /**
+     * Used when a certain key is being updated when it doesn't exist in the cache store.
+     */
+    const KEY_NOT_FOUND_ON_UPDATE = 2002;
+
 }

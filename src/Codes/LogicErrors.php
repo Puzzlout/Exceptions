@@ -14,8 +14,25 @@
 namespace Puzzlout\Exceptions\Codes;
 
 abstract class LogicErrors {
+
     /**
      * Used when an error code for a particular case is not yet created when dealing with code logic.
      */
     const UNASSIGNED_ERROR = 1000;
+
+    /**
+     * Used when a computation returns not the value expected.
+     */
+    const UNEXPECTED_VALUE = 1001;
+
+    /**
+     * Used when a placeholder is not found a list.
+     */
+    const PLACEHOLDER_NOT_FOUND = 1002;
+
+    /**
+     * Used when some placeholders are unreplaced in a list.
+     */
+    const UNREPLACED_PLACEHOLDERS = 1003;
+
 }
