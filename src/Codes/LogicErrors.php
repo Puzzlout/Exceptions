@@ -35,4 +35,8 @@ abstract class LogicErrors {
      */
     const UNREPLACED_PLACEHOLDERS = 1003;
 
+    /**
+     * Used when a parameter does not have a valid value.
+     */
+    const PARAMETER_VALUE_INVALID = 1004;
 }
