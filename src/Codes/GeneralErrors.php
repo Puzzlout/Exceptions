@@ -17,5 +17,5 @@ abstract class GeneralErrors {
 
     const DEFAULT_ERROR = 1;
     const VALUE_IS_NOT_OF_EXPECTED_TYPE = 2;
-
+    const INVALID_JSON_DATA = 3;
 }
