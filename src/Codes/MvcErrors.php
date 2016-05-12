@@ -33,10 +33,10 @@ abstract class MvcErrors {
     /**
      * Used when a partial view doesn't exist.
      */
-    const PARTIAL_VIEW_NOT_FOUND = 4003;
+    const PARTIAL_VIEW_NOT_FOUND = 3003;
 
     /**
      * Used to reveal that the ErrorController is missing in the application.
      */
-    const ERROR_CONTROLLER_MUST_EXIST = 4004;
+    const ERROR_CONTROLLER_MUST_EXIST = 3004;
 }
