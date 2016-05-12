@@ -35,4 +35,8 @@ abstract class MvcErrors {
      */
     const PARTIAL_VIEW_NOT_FOUND = 4003;
 
+    /**
+     * Used to reveal that the ErrorController is missing in the application.
+     */
+    const ERROR_CONTROLLER_MUST_EXIST = 4004;
 }
